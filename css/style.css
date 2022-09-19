@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+.text{
+   color: royalblue;
+}
+#vsy{
+   color: purple;
+}
+.text-block p{
+   color: green;
+}
+.text.lesson{
+   color: darkorange;
+}
+
+
+
+@font-face{
+   font-family: Lato;
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+   font-display: swap;
+   font-weight: 400;
+}
+
+@font-face{
+   font-family: Lato;
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+   font-display: swap;
+   font-weight: 700;
+}
+
+@font-face{
+   font-family: Lato;
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url(../fonts/Lato-Black.woff) format("woff");
+   font-display: swap;
+   font-weight: 900;
+}
+
+@font-face{
+   font-family: Larsseit;
+   src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+      font-style: normal;
+}
+
+@font-face{
+   font-family: Larsseit;
+   src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+   font-display: swap;
+   font-weight: 500;
+      font-style: Medium;
+}
+
+@font-face{
+   font-family: Larsseit;
+   src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+   font-display: Bold;
+   font-weight: 700;
+      font-style: normal;
+}
+
+body{
+   font-family: larsseit;
+   font-weight: 700;
+}
+
+
+
+*,
+*::before,
+*::after{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+a{
+   color: inherit;
+}
+li{
+   list-style: none;
+}
+a:link,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+   
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   font-weight: inherit;
+   font-size: inherit;
+}
+button{
+   cursor: pointer;
+   color: inherit;
+   background-color: inherit;
+}
+input,
+button,
+textarea{
+   font-weight: inherit;
+   font-size: inherit;
+}
+body {
+   line-height: 1;
+}
